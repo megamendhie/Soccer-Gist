@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "184895841859",
+    "firebase_url": "https://soccer-gist.firebaseio.com",
+    "project_id": "soccer-gist",
+    "storage_bucket": "soccer-gist.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184895841859:android:a0728d72df1605c7",
+        "android_client_info": {
+          "package_name": "com.swiftqube.soccergist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184895841859-qbj5rndkc63bqa57h5aqoqcnuesj2f8e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.swiftqube.soccergist",
+            "certificate_hash": "1b3345a36c55cc79db328895f7916bbf88370147"
+          }
+        },
+        {
+          "client_id": "184895841859-jnc0gi687vilk3k2hbfdovm4ghoiin4b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMrdI-VqGPAL1hRgL3RI27f97fcKZP2Xw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "184895841859-jnc0gi687vilk3k2hbfdovm4ghoiin4b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
