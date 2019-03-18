@@ -1,4 +1,3 @@
-
 package com.swiftqube.soccergist;
 
 import android.app.ProgressDialog;

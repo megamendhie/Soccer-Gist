@@ -34,7 +34,7 @@
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.FloatingActionButton
-            android:id="@+id/fab"
+            android:id="@+id/btnSend"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1.5"
@@ -52,7 +52,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"/>
 
-    <ListView
+    <android.support.v7.widget.RecyclerView
         android:id="@+id/list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -60,8 +60,6 @@
         android:scrollbars="none"
         android:layout_alignParentTop="true"
         android:layout_marginBottom="5dp"
-        android:divider="@android:color/transparent"
-        android:dividerHeight="5dp"
         android:stackFromBottom="true"
         android:transcriptMode="normal" />
 
