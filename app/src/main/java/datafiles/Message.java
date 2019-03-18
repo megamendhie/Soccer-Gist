@@ -26,19 +26,51 @@ public class Message {
 
     }
 
-    public String getMessageUser() {return messageUser;}
+    public String getMessageUser() {
+        return messageUser;
+    }
 
-    public String getMessageText() {return messageText;}
+    public void setMessageUser(String messageUser) {
+        this.messageUser = messageUser;
+    }
 
-    public String getMessageUserId() {return messageUserId;}
+    public String getMessageText() {
+        return messageText;
+    }
 
-    public long getMessageTime() {return messageTime;}
+    public void setMessageText(String messageText) {
+        this.messageText = messageText;
+    }
 
-    public long getMessageLikesCount() {return messageLikesCount;}
+    public String getMessageUserId() {
+        return messageUserId;
+    }
 
-    public void setMessageLikesCount(long messageLikesCount) {this.messageLikesCount = messageLikesCount;}
+    public void setMessageUserId(String messageUserId) {
+        this.messageUserId = messageUserId;
+    }
 
-    public Map<String, Boolean> getMessageLikes() {return messageLikes;}
+    public long getMessageTime() {
+        return messageTime;
+    }
 
-    public void setMessageLikes(Map<String, Boolean> messageLikes) {this.messageLikes = messageLikes;}
+    public void setMessageTime(long messageTime) {
+        this.messageTime = messageTime;
+    }
+
+    public long getMessageLikesCount() {
+        return messageLikesCount;
+    }
+
+    public void setMessageLikesCount(long messageLikesCount) {
+        this.messageLikesCount = messageLikesCount;
+    }
+
+    public Map<String, Boolean> getMessageLikes() {
+        return messageLikes;
+    }
+
+    public void setMessageLikes(Map<String, Boolean> messageLikes) {
+        this.messageLikes = messageLikes;
+    }
 }
