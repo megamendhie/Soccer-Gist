@@ -27,6 +27,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth:16.2.0'       //Authentication
     implementation 'com.google.firebase:firebase-firestore:18.1.0'  //Cloud Firestore
     implementation 'com.google.firebase:firebase-storage:16.1.0'    //Storage
+    implementation 'com.firebaseui:firebase-ui-storage:4.2.0'
     implementation 'com.firebaseui:firebase-ui-firestore:4.0.0'
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation 'com.android.support:cardview-v7:27.1.1'

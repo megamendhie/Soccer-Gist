@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="250dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="250dp"
+    android:layout_marginTop="20dp"
+    android:background="#eae9ea">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        style="@style/Base.TextAppearance.AppCompat.Medium"
+        android:text="@string/profile_image_txt"/>
+
+    <ImageView
+        android:id="@+id/imgProfilePic"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="6dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_add_circle_outline_black_24dp"/>
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_gravity="end"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:text="Close"/>
+
+</LinearLayout>

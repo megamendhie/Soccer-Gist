@@ -6,6 +6,7 @@
     android:paddingTop="6dp"
     android:paddingBottom="6dp"
     android:orientation="horizontal"
+    android:gravity="end"
     xmlns:card_view="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
@@ -13,13 +14,13 @@
         android:id="@+id/imgDps"
         android:layout_width="64dp"
         android:layout_height="64dp"
+        android:layout_marginStart="19dp"
         android:layout_marginEnd="4dp"/>
 
     <android.support.v7.widget.CardView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/imgDps"
-        android:layout_marginEnd="15dp"
         card_view:cardUseCompatPadding="true"
         app:cardCornerRadius="6dp"
         android:elevation="10dp">
@@ -37,7 +38,7 @@
                 android:id="@+id/lnrContr"
                 android:orientation="horizontal"
                 android:minWidth="210dp"
-                android:background="#d8e4e7">
+                android:background="#b7bff1">
 
 
                 <TextView
@@ -46,7 +47,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:paddingStart="6dp"
-                    android:textColor="@color/colorAccent"
+                    android:textColor="#3F51B5"
                     android:text="username"
                     android:textStyle="normal|bold" />
 

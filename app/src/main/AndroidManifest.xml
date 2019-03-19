@@ -20,6 +20,9 @@
             android:label="Sign up"/>
         <activity android:name=".LoginActivity"
             android:label="Login"/>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
     </application>
 
 </manifest>
