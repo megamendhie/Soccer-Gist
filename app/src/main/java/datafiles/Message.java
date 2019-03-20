@@ -22,10 +22,6 @@ public class Message {
         this.messageLikes= messageLikes;
     }
 
-    public Message(){
-
-    }
-
     public String getMessageUser() {
         return messageUser;
     }
