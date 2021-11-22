@@ -9,3 +9,5 @@ The article covers:
  - User authentication with email/password
  - Using FirebaseUI for Cloud Firestore
  - CRUD operation on Cloud Firestore
+
+Cheers!
